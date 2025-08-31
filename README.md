@@ -18,3 +18,4 @@ Steps to use:
 `docker build -t mini-task .`
 3) run in terminal:
 `docker run --rm -p 8000:80 -v "%cd%\data:/app/data" --name image-gen-app mini-task`
+4) Check/Test the API [Here](http://localhost:8000/docs)
